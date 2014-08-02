@@ -62,7 +62,7 @@ const ToxAvCSettings av_DefaultSettings = {
     64000,
     20,
     48000,
-    1
+    2
 };
 
 const uint32_t av_jbufdc = 3;
