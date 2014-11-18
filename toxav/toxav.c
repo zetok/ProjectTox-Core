@@ -52,10 +52,10 @@ const ToxAvCSettings av_DefaultSettings = {
     1280,
     720,
 
-    32000,
-    20,
+    128000,  /* bitrate in kbps */
+    60,      /* opus audio frame length in ms */
     48000,
-    1
+    2        /* number of channels */
 };
 
 static const uint32_t jbuf_capacity = 6;
